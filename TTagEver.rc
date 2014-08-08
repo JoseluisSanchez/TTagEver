@@ -1,0 +1,13 @@
+//
+// Dialog resources
+//
+TagEver DIALOG 0, 0, 228, 137
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "Ms Sans Serif"
+{
+    DEFPUSHBUTTON   "OK", IDOK, 114, 115, 50, 14
+    PUSHBUTTON      "Cancel", IDCANCEL, 170, 115, 50, 14
+    CONTROL         "100", 100, "TTagEver", 0x50020000, 8, 9, 212, 103
+}
+
